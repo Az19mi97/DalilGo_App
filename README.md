@@ -31,7 +31,7 @@ DalilGo is structured with a modular architecture to ensure maintainability, sca
 - **E-number Search:** Users can search the entire database of E-numbers with normalized results.
 - **Image-Based Scanning:** Supports scanning of products via photos from the gallery or live camera feed.
 - **Smart Camera Overlay (live):** Detects and highlights E-numbers in real-time while scanning products.
-- **Detailed Results:** Displays each detected E-number with its origin, dietary suitability (vegan, vegetarian), and halal status.
+- **Detailed Results:** Displays each detected E-number with its origin, dietary suitability (vegan, vegetarian).
 - **Contact Form:** Sends structured messages through Firestore with proper validation, enabling secure user feedback collection.
 
 ---
@@ -54,7 +54,7 @@ The application is designed with a focus on modularity and performance:
 - **Flutter-Based UI:** Fully responsive and adaptive layout using `SingleChildScrollView`, `DropdownButtonFormField`, and `ElevatedButton` widgets.
 - **OCR Optimization:** Generates multiple image variants for each scan to improve recognition accuracy.
 - **Firebase Integration:** Firestore is used to persist contact messages, including email, category, title, description, and server-side timestamping.
-- **Real-Time Updates:** Detected E-numbers are displayed in an overlay with clear visual cues and color-coded dietary/halal status.
+- **Real-Time Updates:** Detected E-numbers are displayed in an overlay with clear visual cues and color-coded dietary.
 - **Reusable Modules:** Core components like `ECode`, `ECodeLoader`, and image analysis functions are encapsulated for maintainability and potential future expansion.
 
 ---
