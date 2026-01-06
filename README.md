@@ -4,7 +4,9 @@ DalilGo is a mobile application developed with Flutter to provide fast and accur
 
 With DalilGo, users can not only identify E-numbers but also see whether each E-number is suitable for vegans or vegetarians. The app provides a detailed overview of each searched or detected E-number and offers a complete summary when multiple E-numbers are detected from a single image or via live scanning with the Smart Camera Overlay feature. This makes it easy to assess the overall suitability of a product at a glance.
 
-- DalilGo is planned to be available only on Android devices.
+<img src="https://github.com/user-attachments/assets/0a9cc86e-5542-48a3-94a8-d1279459e314" alt="Screenshot" width="180" height="400" />
+<img width="180" height="400" alt="Screenshot_1767707723" src="https://github.com/user-attachments/assets/31770a64-0c49-4c57-9cdb-f95b91e184f9" />
+<img width="180" height="400" alt="Screenshot_1767707743" src="https://github.com/user-attachments/assets/8d474ff5-4463-442f-853e-6bfbf7ed4f1a" />
   
 ---
 
@@ -19,7 +21,6 @@ The source code for DalilGo is **private and not publicly accessible**. This rep
 DalilGo is structured with a modular architecture to ensure maintainability, scalability, and efficient asynchronous processing. The app leverages modern mobile technologies, including:
 
 - **Flutter & Dart:** For cross-platform mobile development with high-performance UI rendering.
-- **Firebase Firestore:** For cloud data storage and real-time timestamping of user messages.
 - **Camera & Image Processing:** Integrates `camera` and `image_picker` packages for capturing product images.
 - **OCR and Text Recognition:** For live text detection in the Smart Camera Overlay.
 - **Custom UI:** Implements Google Fonts for consistent and appealing typography and Material design for intuitive user experience.
@@ -32,7 +33,6 @@ DalilGo is structured with a modular architecture to ensure maintainability, sca
 - **Image-Based Scanning:** Supports scanning of products via photos from the gallery or live camera feed.
 - **Smart Camera Overlay (live):** Detects and highlights E-numbers in real-time while scanning products.
 - **Detailed Results:** Displays each detected E-number with its origin, dietary suitability (vegan, vegetarian).
-- **Contact Form:** Sends structured messages through Firestore with proper validation, enabling secure user feedback collection.
 
 ---
 
@@ -53,7 +53,6 @@ The application is designed with a focus on modularity and performance:
 
 - **Flutter-Based UI:** Fully responsive and adaptive layout using `SingleChildScrollView`, `DropdownButtonFormField`, and `ElevatedButton` widgets.
 - **OCR Optimization:** Generates multiple image variants for each scan to improve recognition accuracy.
-- **Firebase Integration:** Firestore is used to persist contact messages, including email, category, title, description, and server-side timestamping.
 - **Real-Time Updates:** Detected E-numbers are displayed in an overlay with clear visual cues and color-coded dietary.
 - **Reusable Modules:** Core components like `ECode`, `ECodeLoader`, and image analysis functions are encapsulated for maintainability and potential future expansion.
 
@@ -75,7 +74,6 @@ This project showcases expertise in:
 - Asynchronous and parallel processing for performance-sensitive tasks.
 - Real-time camera integration and live image analysis.
 - OCR preprocessing and post-processing for robust text recognition.
-- Firebase Firestore integration for structured data storage.
 - Modular code organization and maintainable software design.
 - UI/UX implementation with custom fonts, overlays, and responsive design.
 
